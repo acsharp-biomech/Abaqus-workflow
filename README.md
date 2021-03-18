@@ -11,3 +11,6 @@ This is a step-by-step protocol to set up a simple, static loading scenario incl
 
 4. [Part 3](https://github.com/acsharp-biomech/Abaqus-workflow/blob/main/Part-3.md) - applying boundary conditions and loads
 
+5. Part 4 - Setting up a job and running jobs from a batch file
+
+6. Part 5 - Abaqus post processing
