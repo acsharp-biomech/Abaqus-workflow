@@ -26,7 +26,7 @@ Open your command line by searching cmd in the start menu.
 
 Change the directory to the working directory you saved the input files, and the batch file to:
 
-*cd "C:\...\Abaqus working directory"* This might be your own working directory you set before, or it might be the default WD for Abaqus, which is C:\Temp
+*cd "C:\...\AbaqusWD"*
 
 Then run the batch file you wrote earlier by typing:
 
