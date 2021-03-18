@@ -8,7 +8,7 @@ Double click the Step option in the model tree, name the Step and select the typ
 ![image](https://user-images.githubusercontent.com/80410515/111634371-5a301980-87ee-11eb-9a14-3ac49875c7a2.png)
 
 ## Creating a Set
-You sometimes need to create a Set of nodes so that you can apply a load or constrain over the entire set.
+You sometimes need to create a Set of nodes so that you can apply a load or constraint over the entire set.
 
 To do so, expand the Assembly option in the model tree and double click Sets.
 
