@@ -31,3 +31,7 @@ Change the Perspective: ![image](https://user-images.githubusercontent.com/80410
 Change the background colour : View > Graphics Options... In Graphics Options you can also change the Drag mode to wireframe for faster movement.
 
 Take a screen capture: File > Print, in settings - select File, Browse files, select format and choose the image size by clicking ![image](https://user-images.githubusercontent.com/80410515/111625442-c3ab2a80-87e4-11eb-9dc5-6d4bc2e7d456.png).
+
+Set working directory: You may want to change the working directory (the default is C:\Temp), File > Set work directory...
+
+To change the element type (linear to quadratic): In the Mesh Module, select the menu Mesh > Element Type... then select the region to be assigned. In the dialog box that appears, change the Geometric Order (Linear or Quadratic). Linear are 4-node tetrahedral elements (C3D4) and quadratic are 10-node tetrahedral elements (C3D10). Quadratic elements are more accurate but take a lot longer to solve. 4-node tetrahedral elements are standard from Avizo and do the job if you have enough of them.
