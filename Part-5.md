@@ -16,11 +16,15 @@ To get the RF from the bite points click ![image](https://user-images.githubuser
 
 To get the internal strain energy (Ԑ) expand the Output database file in the model tree, expand the History Output and then double click *Strain energy: ALLSE for Whole Model*. A temporary XY plot will appear. Click ![image](https://user-images.githubusercontent.com/80410515/111641366-feb55a00-87f4-11eb-98f4-280e3e09e2ea.png) to probe the plot and click the line near the top.
 
-Export a Field Output Report to get the stress and strain values for every node (and then get mean, median, boxplots etc. in R). Go to the menu Report > field output, and select the components you want to export. In the Setup tab, name your file and uncheck Column totals and Column min/max. The field output file can then be opened in R for analysis. 
-
 Setting up a *View Cut* is easily done by clicking the *Activate/Deactivate View Cut* icon ![image](https://user-images.githubusercontent.com/80410515/111641522-260c2700-87f5-11eb-98c4-0ade515619bc.png). By clicking the next icon across ![image](https://user-images.githubusercontent.com/80410515/111641586-36bc9d00-87f5-11eb-975e-75dd965450c8.png), you can change the axis and location of the cut.
 
 You can also probe ![image](https://user-images.githubusercontent.com/80410515/111641631-3fad6e80-87f5-11eb-88a8-22961947225d.png) nodes or elements on the model for stress or strain values in critical areas of interest. 
+
+## Getting general stats (e.g. mean, median etc.) for your entire model
+Export a Field Output Report to get the stress and strain values for every node. Go to the menu Report > field output, and select the components you want to export. In the Setup tab, name your file and uncheck Column totals and Column min/max. 
+
+The field output file can then be opened in R for analysis, so you can get mean, median, boxplots etc. The file is usually huge, so don't try to display the whole table.
+
 
 ## Setting up an XY plot of a path
 Create a path: Tools > Path > Create. In the dialog box that appears, click *"Add Before..."* and select the nodes for the path, click done.
