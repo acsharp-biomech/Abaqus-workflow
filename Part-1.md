@@ -54,4 +54,4 @@ Uncheck the Create Set option in the task bar. You can select the region individ
 
 Note: When making a selection of the model, it is import to have the right options chosen. In the top toolbar there is an option to select ALL elements/nodes ![image](https://user-images.githubusercontent.com/80410515/111632691-a712f080-87ec-11eb-9e02-7071bd83d217.png), just the EXTERNAL elements/nodes ![image](https://user-images.githubusercontent.com/80410515/111632749-b72ad000-87ec-11eb-8ba5-41048d427b19.png) or just the INTERNAL elements/nodes ![image](https://user-images.githubusercontent.com/80410515/111632798-c1e56500-87ec-11eb-8e04-fc9a63b91117.png). When assigning the section individually, you need to have ALL elements selected. Later when you want to make Sets of surface nodes (e.g. for muscle attachments), you will need to change this to just the EXTERNAL nodes.
 
-## next section Part 2 - creating an analysis step, applying boundary conditions, creating a Set
+## next section [Part 2](https://github.com/acsharp-biomech/Abaqus-workflow/blob/main/Part-2.md) - creating an analysis step, applying boundary conditions, creating a Set
