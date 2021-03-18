@@ -9,7 +9,9 @@ File > Import > Model, select file type Abaqus Input File (.inp) or NASTRAN Bulk
 When the model imports, it will set up one or more Sets found under Part and/or Assembly in the model tree. A couple of important ones are: EALL, a set of all the elements; NALL, a set of all the nodes, because these tell (remind) you how many elements and nodes are in your model. These may be different in different version of the software, or depending on the software from which you export your model. When you hover your mouse over a Set it will tell you the type (element or node) and size.
 
 ## Importing a second model (Part)
-Importing a second Part and Instance, such as a jaw, can be done separately so that the jaw can be excluded from the simulation. The jaw can then be used to correctly align the loads. Import the second model as above in a separate Abaqus Database and save the database in the Abaqus/CAE Database format (.cae). Then, in the Abaqus database that you want to work in (e.g. set up simulations and run FEA on the cranium) import the jaw model as follows: 
+Importing a second Part and Instance, such as a jaw, can be done separately so that the jaw can be excluded from the simulation. The jaw can then be used to correctly align the loads. If you have a jaw as a seperate material that you saved and imported together as a NASTRAN file, this step is unnessesary. 
+
+Import the second model as above in a separate Abaqus Database and save the database in the Abaqus/CAE Database format (.cae). Then, in the Abaqus database that you want to work in (e.g. set up simulations and run FEA on the cranium) import the jaw model as follows: 
 
 File > Import > Model, select file type Abaqus/CAE Database (.cae)
 
