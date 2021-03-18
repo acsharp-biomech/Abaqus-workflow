@@ -5,5 +5,5 @@ This is a step-by-step protocol to set up a simple, static loading scenario incl
 
 1. [Abaqus Basics](https://github.com/acsharp-biomech/Abaqus-workflow/blob/main/Abaqus-basics.md) - The user interface and basics
 
-2. Part 1 - Importing a model, importing a second part, and assigning material properties
+2. [Part 1](https://github.com/acsharp-biomech/Abaqus-workflow/blob/main/Part-1.md) - Importing a model, importing a second part, and assigning material properties
 
