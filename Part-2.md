@@ -33,3 +33,4 @@ You can create a new CSYS by clicking ![image](https://user-images.githubusercon
 
 •	If you need to create a datum point and reference point (RP) offset from your model that represents the insertion of a muscle on the jaw (if you don’t have a jaw model to load), you will need to create a datum and RP before you create your new CSYS.
 
+## Next: [Part 3](https://github.com/acsharp-biomech/Abaqus-workflow/blob/main/Part-3.md) - applying boundary conditions and loads
