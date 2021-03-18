@@ -38,6 +38,22 @@ Under the Model tab on the LHS of the screen expand your selected model (you can
 If a Section has already been set up when you import your model, you don’t need to do this step. But, it’s important that you make sure the Section is “Solid, Homogeneous”, and assigned to the correct material. 
 
 Double click on the Section option in the model tree, name your section and select the Category (e.g. Solid) and Type (e.g. Homogeneous), click Continue...
+
 ![image](https://user-images.githubusercontent.com/80410515/111632442-62875500-87ec-11eb-8d58-e1e04bae1c67.png)
 
 A second dialog box (above right) will appear to select the material for the section.
+
+## 5. Assign the Section to your model
+If a Section Assignment has already been set up when you import your model, you don’t need to do this step, but it is best you check that the section you want it assigned to the correct region/part and material. 
+
+Expand the Part you want to assign the section to and double click the Section Assignments option.
+
+Uncheck the Create Set option in the task bar. You can select the region individually (each element, or select the entire model) using the mouse, or you can select the region using a set you have already created (or a set created for you if you have multiple materials) by clicking the “Sets…” button on the right. Then click Done. 
+
+![image](https://user-images.githubusercontent.com/80410515/111632641-98c4d480-87ec-11eb-89b0-969d12df5da0.png)
+
+Note: When making a selection of the model, it is import to have the right options chosen. In the top toolbar there is an option to select ALL elements/nodes ![image](https://user-images.githubusercontent.com/80410515/111632691-a712f080-87ec-11eb-9e02-7071bd83d217.png), just the EXTERNAL elements/nodes ![image](https://user-images.githubusercontent.com/80410515/111632749-b72ad000-87ec-11eb-8ba5-41048d427b19.png) or just the INTERNAL elements/nodes ![image](https://user-images.githubusercontent.com/80410515/111632798-c1e56500-87ec-11eb-8e04-fc9a63b91117.png).
+
+
+
+
