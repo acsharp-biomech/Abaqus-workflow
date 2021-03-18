@@ -13,4 +13,4 @@ This is a step-by-step protocol to set up a simple, static loading scenario incl
 
  [Part 4](https://github.com/acsharp-biomech/Abaqus-workflow/blob/main/Part-4.md) - Setting up a job and running jobs from a batch file
 
- Part 5 - Abaqus post processing
+ [Part 5](https://github.com/acsharp-biomech/Abaqus-workflow/blob/main/Part-5.md) - Abaqus post processing
