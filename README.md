@@ -7,3 +7,4 @@ This is a step-by-step protocol to set up a simple, static loading scenario incl
 
 2. [Part 1](https://github.com/acsharp-biomech/Abaqus-workflow/blob/main/Part-1.md) - Importing a model, importing a second part, and assigning material properties
 
+3. Part 2 - creating an analysis step, applying boundary conditions, creating a Set
