@@ -21,3 +21,21 @@ Export a Field Output Report to get the stress and strain values for every node 
 Setting up a *View Cut* is easily done by clicking the *Activate/Deactivate View Cut* icon ![image](https://user-images.githubusercontent.com/80410515/111641522-260c2700-87f5-11eb-98c4-0ade515619bc.png). By clicking the next icon across ![image](https://user-images.githubusercontent.com/80410515/111641586-36bc9d00-87f5-11eb-975e-75dd965450c8.png), you can change the axis and location of the cut.
 
 You can also probe ![image](https://user-images.githubusercontent.com/80410515/111641631-3fad6e80-87f5-11eb-88a8-22961947225d.png) nodes or elements on the model for stress or strain values in critical areas of interest. 
+
+## Setting up an XY plot of a path
+Create a path: Tools > Path > Create. In the dialog box that appears, click *"Add Before..."* and select the nodes for the path, click done.
+
+Click the Create XY Data icon ![image](https://user-images.githubusercontent.com/80410515/111642087-b0ed2180-87f5-11eb-954c-59487a49ba4f.png) and select path in the options, click continue. In the dialog box that appears select the path to be plotted from the dropdown list and change any of the settings.
+
+Under Point Locations, you can choose to include intersection along the path, or not.
+
+![image](https://user-images.githubusercontent.com/80410515/111642139-be0a1080-87f5-11eb-945b-aa7835976386.png)
+
+You can also choose the X and Y values. X values can be displayed as the True Distance, Normalised Distance, Sequence ID or X, Y, Z Distances.
+
+Y Values can be changed by selecting the Field output variable by clicking ![image](https://user-images.githubusercontent.com/80410515/111642235-d0844a00-87f5-11eb-8d21-5a84ca495c00.png).
+
+When you're done, you can see your results by clicking Plot, then Save As...
+![image](https://user-images.githubusercontent.com/80410515/111642299-ded26600-87f5-11eb-94c7-bef7f864144a.png)
+
+
