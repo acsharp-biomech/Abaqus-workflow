@@ -10,11 +10,11 @@ The menus available in the top toolbar will change depending on the Module you h
 The Module tools, located to the right of the model tree will also change depending on the Module selected.
 
 ## The basics
-Pan: Ctrl + Alt + Middle mouse button (MMB)
-Rotate: Ctrl + Alt + Left mouse button (LMB)
-Zoom: Mouse wheel
-Select: LMB
-Add to selection: Shift + LMB
+Pan: Ctrl + Alt + Middle mouse button (MMB),
+Rotate: Ctrl + Alt + Left mouse button (LMB),
+Zoom: Mouse wheel,
+Select: LMB,
+Add to selection: Shift + LMB,
 Deselect: Ctrl + LMB
 
 Change rotation centre: Click ![image](https://user-images.githubusercontent.com/80410515/111624942-3536a900-87e4-11eb-9d57-25aced84484f.png) in the toolbar, then click Select in task bar ![image](https://user-images.githubusercontent.com/80410515/111624991-454e8880-87e4-11eb-960e-3d62496d0359.png)
