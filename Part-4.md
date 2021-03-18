@@ -14,9 +14,11 @@ If you have a series of Jobs it is faster and easier to run as a batch file from
 
 To write a batch file, open any text editor and type:
 
-*call abaqus j=Job-1 int ask_delete=off
-call abaqus j=Job-2 int ask_delete=off
-call abaqus j=Job-3 int ask_delete=off*
+*call abaqus j=Job-1 int ask_delete=off*
+
+*call abaqus j=Job-2 int ask_delete=off*
+
+*call abaqus j=Job-3 int ask_delete=off*
 
 Replace Job-1, Job-2 etc. with the name of the input file you saved your jobs as. Save the file as runAbaqusJobs.bat (or whatever you want, but it's important it's saved as a .bat NOT .txt) in the same directory as the input files.
 
