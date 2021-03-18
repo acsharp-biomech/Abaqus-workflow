@@ -34,3 +34,4 @@ Then run the batch file you wrote earlier by typing:
 
 This will call each input file in succession so you can go home and relax :)
 
+## Next: [Part 5](https://github.com/acsharp-biomech/Abaqus-workflow/blob/main/Part-5.md) - Abaqus post processing
