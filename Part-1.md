@@ -1,5 +1,5 @@
 # Step-by-step Instructions
-## 1. Import a model
+## Import a model
 Before importing a model into Abaqus it is important to make sure your mesh is good quality. The better quality your surface mesh is in Avizo (or whatever meshing software you use – Hypermesh, Mimics, 3Matic, Blender etc.), the better quality the tetrahedral mesh will be (for producing a high-quality mesh in Avizo, see my Avizo protocol). If the mesh has errors, such as high aspect ratio triangles, it may not run in Abaqus, which means you will have to start all over again and produce a better mesh. Get it right the first time and never look back!
 
 Abaqus can import many file types; I have only used an Abaqus Input file (.inp) and NASTRAN, exported from Avizo. Importing a .inp model from Avizo or Hypermesh will set up a Part and an Instance for the Assembly. If you have multiple materials in your mesh that you want to apply different material properties to in Abaqus, it is better to save it as a NASTRAN file, because this will set up different sets, sections and materials when you import it to Abaqus.
@@ -10,3 +10,12 @@ When the model imports, it will set up one or more Sets found under Part and/or 
 
 ## Importing a second model (Part)
 Importing a second Part and Instance, such as a jaw, can be done separately so that the jaw can be excluded from the simulation. The jaw can then be used to correctly align the loads. Import the second model as above in a separate Abaqus Database and save the database in the Abaqus/CAE Database format (.cae). Then, in the Abaqus database that you want to work in (e.g. set up simulations and run FEA on the cranium) import the jaw model as follows: 
+
+File > Import > Model, select file type Abaqus/CAE Database (.cae)
+
+In the dialog box that appears, select After import, show "Model->Copy Objects" dialog
+![image](https://user-images.githubusercontent.com/80410515/111630399-3cf94c00-87ea-11eb-8ef2-13f25e02fb08.png)
+
+Another dialog box will appear. Select the Part and Instance you want to copy
+![image](https://user-images.githubusercontent.com/80410515/111630442-471b4a80-87ea-11eb-80bc-8fb2ac543ce6.png)
+
