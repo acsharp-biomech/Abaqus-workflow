@@ -23,3 +23,11 @@ You have different options for how to place your datum: (1) you can Enter the ex
 
 Now you can make the datum a Reference Point by selecting the ![image](https://user-images.githubusercontent.com/80410515/111636660-98c6d380-87f0-11eb-9c37-2c4f9ab3d654.png)
  icon under the Interaction Module. 
+
+## Setting up a new/local CSYS
+You can create a new CSYS by clicking ![image](https://user-images.githubusercontent.com/80410515/111636886-cd3a8f80-87f0-11eb-8ffa-af3b7704e0c2.png) or select an existing CSYS with ![image](https://user-images.githubusercontent.com/80410515/111636912-d592ca80-87f0-11eb-8bb6-d8bafe5a22bb.png). Or, in the Assembly Module drop-down list, you can select the icon in the bottom right hand corner ![image](https://user-images.githubusercontent.com/80410515/111636945-dd526f00-87f0-11eb-9495-7db172c2cdfa.png).
+
+•	To create a new CSYS click ![image](https://user-images.githubusercontent.com/80410515/111637027-f0fdd580-87f0-11eb-94b2-4509743764bd.png) or ![image](https://user-images.githubusercontent.com/80410515/111637049-f824e380-87f0-11eb-9da7-416907acd672.png) and select  Rectangular. Select a point to be the origin (the centre of the set, or origin of the muscle, is the best option) and then select a point to be the direction of the x-axis. The direction of the x-axis should be the direction of the load (e.g. from muscles origin to insertion). Click Create Datum and you're done. The Create Datum CSYS dialog box will appear again if you want to create more CSYS, or click cancel if you don't. Coordinate systems will appear under Features under the Assembly in the Model Tree.
+
+•	If you need to create a datum point and reference point (RP) offset from your model that represents the insertion of a muscle on the jaw (if you don’t have a jaw model to load), you will need to follow the instructions below to create a datum and RP before you create your new CSYS.
+
