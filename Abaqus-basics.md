@@ -3,3 +3,6 @@
 The model tree is located on the left hand side of the window. This is the main place to find all the tools to create boundary conditions, loads, sets, materials etc.
 
 ![image](https://user-images.githubusercontent.com/80410515/111624475-a7f35480-87e3-11eb-89b2-9bc0d424403e.png)
+The Command Line Interface is located at the bottom of the window and shows recent activity that you have performed.
+The menus available in the top toolbar will change depending on the Module you have selected. The Module can be changed by selecting from the dropdown list  . The module will change automatically when you select different tasks from the Model tree. For example, when you want to apply a load by double clicking Loads   in the model tree, it will automatically switch to the Load Module.
+The Module tools, located to the right of the model tree will also change depending on the Module selected.
