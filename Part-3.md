@@ -52,3 +52,5 @@ Add the coupling constraint by double clicking the ![image](https://user-images.
 Make the coupling type distributed, not kinematic (read about the different in the Abaqus Documentation Manual), constrain all the degrees of freedom and specify the CSYS you want the constraint to be in (select the CSYS set up for that set with the x-axis in the direction of the force).
 
 Now you can set up a Load and apply the force to the RP. This will distribute the Load through the coupling constraint to the nodes at the muscle origin. 
+
+## Next: [Part 4](https://github.com/acsharp-biomech/Abaqus-workflow/blob/main/Part-4.md) - Setting up a job and running jobs from a batch file
