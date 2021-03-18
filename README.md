@@ -9,5 +9,5 @@ This is a step-by-step protocol to set up a simple, static loading scenario incl
 
 3. [Part 2](https://github.com/acsharp-biomech/Abaqus-workflow/blob/main/Part-2.md) - creating an analysis step, creating a Set, a "floating" datum and RP, and a local co-ordinate system
 
-4. Part 3 - applying boundary conditions and loads
+4. [Part 3](https://github.com/acsharp-biomech/Abaqus-workflow/blob/main/Part-3.md) - applying boundary conditions and loads
 
