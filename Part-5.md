@@ -40,6 +40,5 @@ You can also choose the X and Y values. X values can be displayed as the True Di
 Y Values can be changed by selecting the Field output variable by clicking ![image](https://user-images.githubusercontent.com/80410515/111642235-d0844a00-87f5-11eb-8d21-5a84ca495c00.png).
 
 When you're done, you can see your results by clicking Plot, then Save As...
+
 ![image](https://user-images.githubusercontent.com/80410515/111642299-ded26600-87f5-11eb-94c7-bef7f864144a.png)
-
-
