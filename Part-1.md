@@ -28,3 +28,14 @@ When the new model has imported, it might need to be realigned.
 Select Assembly in the drop down menu next to Module in the toolbar ![image](https://user-images.githubusercontent.com/80410515/111631298-2273a280-87eb-11eb-9685-ace0180e25ac.png)
 
 To translate an Instance with respect to another, select the Translate Instance tool ![image](https://user-images.githubusercontent.com/80410515/111631347-315a5500-87eb-11eb-8233-167e3b9bced4.png) then select the Instance to be moved. To rotate the Instance, select the Rotate Instance tool ![image](https://user-images.githubusercontent.com/80410515/111631379-3c14ea00-87eb-11eb-95f4-d40e60973cd2.png).
+
+## Create Materials
+Under the Model tab on the LHS of the screen expand your selected model (you can also delete Model-1 and any other models you don't need). In the model tree, double click on Materials. Name your material and select the type of material it is e.g. Elastic, Isotropic. Enter the Young's Modulus (e.g. 20E9 for 20 GPa) and Poisson's Ratio (e.g. 0.3) in the Data section window (see below). If a material is already created with your imported model (.inp), you can double click on the material to edit it and add its properties.
+
+![image](https://user-images.githubusercontent.com/80410515/111631806-c1000380-87eb-11eb-9e9d-766b0e2ab5b9.png)
+
+## Create a Section that you want to assign the material
+If a Section has already been set up when you import your model, you don’t need to do this step. But, it’s important that you make sure the Section is “Solid, Homogeneous”, and assigned to the correct material. 
+
+Double click on the Section option in the model tree, name your section and select the Category (e.g. Solid) and Type (e.g. Homogeneous), click Continue...
+
