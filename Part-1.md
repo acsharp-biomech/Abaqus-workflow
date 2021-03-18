@@ -14,8 +14,10 @@ Importing a second Part and Instance, such as a jaw, can be done separately so t
 File > Import > Model, select file type Abaqus/CAE Database (.cae)
 
 In the dialog box that appears, select After import, show "Model->Copy Objects" dialog
+
 ![image](https://user-images.githubusercontent.com/80410515/111630399-3cf94c00-87ea-11eb-8ef2-13f25e02fb08.png)
 
 Another dialog box will appear. Select the Part and Instance you want to copy
+
 ![image](https://user-images.githubusercontent.com/80410515/111630442-471b4a80-87ea-11eb-80bc-8fb2ac543ce6.png)
 
