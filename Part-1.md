@@ -23,3 +23,8 @@ Another dialog box will appear. Select the Part and Instance you want to copy
 
 ![image](https://user-images.githubusercontent.com/80410515/111630442-471b4a80-87ea-11eb-80bc-8fb2ac543ce6.png)
 
+When the new model has imported, it might need to be realigned.
+
+Select Assembly in the drop down menu next to Module in the toolbar ![image](https://user-images.githubusercontent.com/80410515/111631298-2273a280-87eb-11eb-9685-ace0180e25ac.png)
+
+To translate an Instance with respect to another, select the Translate Instance tool ![image](https://user-images.githubusercontent.com/80410515/111631347-315a5500-87eb-11eb-8233-167e3b9bced4.png) then select the Instance to be moved. To rotate the Instance, select the Rotate Instance tool ![image](https://user-images.githubusercontent.com/80410515/111631379-3c14ea00-87eb-11eb-95f4-d40e60973cd2.png).
